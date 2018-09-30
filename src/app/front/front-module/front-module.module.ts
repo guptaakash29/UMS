@@ -6,6 +6,8 @@ import { LoginComponent } from '../login/login.component';
 import { RegistrationComponent } from '../registration/registration.component';
 import { DashboardComponent } from '../dashboard/dashboard.component';
 import { SettingsComponent } from '../settings/settings.component';
+import { HeaderComponent} from '../header/header.component';
+import { FooterComponent} from '../footer/footer.component';
 
 const routes : Routes = [
   {path:'login', component:LoginComponent},
@@ -24,7 +26,9 @@ const routes : Routes = [
     LoginComponent,
     RegistrationComponent,
     DashboardComponent,
-    SettingsComponent
+    SettingsComponent,
+    HeaderComponent,
+    FooterComponent
   ]
 })
 export class FrontModuleModule { }
